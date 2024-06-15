@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <section id="sub-header">
+    <nav>
+     <a href=""><img src="images/logo.png" alt="our logo"></a> 
+     
+     <div class="nav-links" id="navLinks">
+
+      <i class="fa fa-close" onclick="hideMenu"></i>    
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About us</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+     </div>
+
+     <i class="fa fa-bars" onclick="showMenu"></i>
+    </nav>
+
+    <h1>About Us</h1>
+  </section>
+
+  <!----------------- About Us----------------------->
+  <section class="about-us">
+    <div class="row">
+
+      <div class="about-col">
+        <h1>We're the World's Largest University</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur placeat aliquam modi error ea soluta reprehenderit dolore. Veniam beatae, tempore, possimus et libero commodi accusamus sed autem maxime, vitae amet!
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos aliquid laboriosam harum ducimus unde dolorem alias itaque tempora reprehenderit aspernatur ratione blanditiis obcaecati rem ipsa in, magnam excepturi, sapiente laudantium.</p>
+        <a href="" class="hero-btn red-btn">Explore Now</a>
+      </div>
+
+      <div class="about-col">
+        <img src="images/about.jpg" alt="">
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <!--------------------- Footer ------------------------->
+
+  <section id="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores quasi nam <br> dolorum earum accusantium eos ipsum incidu</p>
+
+    <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-linkedin"></i>
+    </div>
+
+    <p>Made with <i class="fa fa-heart-o"></i> by A&J </p>
+  </section>
+
+
+
+  <!------------------ JS Toggle Menu ---------------------------->
+
+  <script>
+    let navLinks = document.getElementById("navLinks");
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+    function hideMenu() {
+      navLinks.style.right ="200px";
+    }
+  </script>
+</body>
+</html>

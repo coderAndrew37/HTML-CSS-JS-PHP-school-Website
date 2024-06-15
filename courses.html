@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Courses</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <section id="sub-header">
+    <nav>
+     <a href=""><img src="images/logo.png" alt="our logo"></a> 
+     
+     <div class="nav-links" id="navLinks">
+
+      <i class="fa fa-close" onclick="hideMenu"></i>    
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About us</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+     </div>
+
+     <i class="fa fa-bars" onclick="showMenu"></i>
+    </nav>
+
+    <h1>Our Courses</h1>
+  </section>
+
+  <!----------------- Courses----------------------->
+
+  <section id="course">
+    <center>
+      <div class="content-header">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt incidunt at fugit eaque aliquid sapiente praesentium obcaecati esse assumenda amet expedita optio magni commodi quia iusto ad, enim repellendus id?</p>
+      </div>
+      </center>
+
+      <div class="row">
+        <div class="course-col">
+          <h3>Intermediate</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur iste rerum ducimus quae culpa explicabo deleniti nam laborum obcaecati totam accusamus vero molestiae quos doloremque praesentium maxime, mollitia molestias est!</p>
+        </div>
+
+        <div class="course-col">
+          <h3>Degree</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur iste rerum ducimus quae culpa explicabo deleniti nam laborum obcaecati totam accusamus vero molestiae quos doloremque praesentium maxime, mollitia molestias est!</p>
+        </div>
+
+        <div class="course-col">
+          <h3>Post Graduate</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur iste rerum ducimus quae culpa explicabo deleniti nam laborum obcaecati totam accusamus vero molestiae quos doloremque praesentium maxime, mollitia molestias est!</p>
+        </div>
+
+      </div>
+    
+  </section>
+  <!----------Facilities --------------------------->
+
+  <section id="facilities">
+    <center>
+      <div class="campus-header">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+      </div>
+    </center>
+    <div class="row">
+      <div class="facilities-col">
+        <img src="images/library.png" alt="">
+        <h3>World Class Library</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facilis minus iusto cupiditate, in odi</p>
+      </div>
+
+      <div class="facilities-col">
+        <img src="images/basketball.png" alt="">
+        <h3>Largest Play Ground</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facilis minus iusto cupiditate, in odi</p>
+      </div>
+
+      <div class="facilities-col">
+        <img src="images/cafeteria.png" alt="">
+        <h3>Tasty and Samptous Meals</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facilis minus iusto cupiditate, in odi</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!--------------------- Footer ------------------------->
+
+  <section id="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores quasi nam <br> dolorum earum accusantium eos ipsum incidu</p>
+
+    <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-linkedin"></i>
+    </div>
+
+    <p>Made with <i class="fa fa-heart-o"></i> by A&J </p>
+  </section>
+
+
+
+  <!------------------ JS Toggle Menu ---------------------------->
+
+  <script>
+    let navLinks = document.getElementById("navLinks");
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+    function hideMenu() {
+      navLinks.style.right ="200px";
+    }
+  </script>
+</body>
+</html>
